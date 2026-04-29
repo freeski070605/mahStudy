@@ -2,12 +2,12 @@
   "name": "esthetics-study-backend",
   "version": "1.0.0",
   "description": "Backend API for Esthetics Study Pro",
-  "main": "dist/server.js",
+  "main": "dist/src/server.js",
   "type": "module",
   "scripts": {
     "dev": "tsx src/server.ts",
     "build": "tsc",
-    "start": "node dist/server.js",
+    "start": "node dist/src/server.js",
     "seed": "tsx seed/seedQuestions.ts",
     "lint": "eslint src --ext ts"
   },
